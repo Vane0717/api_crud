@@ -13,6 +13,6 @@ class Teacher extends Model
    protected $fillable=[
     'name',
     'grade',
-    'specialist'
+    'speciality'
    ];
 }

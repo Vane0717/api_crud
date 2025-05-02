@@ -13,9 +13,9 @@ Route::patch('/students/{id}', [StudentController::class, 'updatePartial']);
 Route::delete('/students/{id}', [StudentController::class, 'destroy']);
 
 //Rutas docentes
-Route::get('/teachers', [TeacherController::class, 'index']);
-Route::get('/teachers/{id}', [TeacherController::class, 'show']);
-Route::post('/teachers', [TeacherController::class, 'store']);
-Route::put('/teachers/{id}', [TeacherController::class, 'update']);
-Route::patch('/teachers/{id}', [TeacherController::class, 'updatePartial']);
-Route::delete('/teachers/{id}', [TeacherController::class, 'destroy']);
+// Route::get('/teachers', [TeacherController::class, 'index']);
+// Route::get('/teachers/{id}', [TeacherController::class, 'show']);
+// Route::post('/teachers', [TeacherController::class, 'store']);
+// Route::put('/teachers/{id}', [TeacherController::class, 'update']);
+// Route::patch('/teachers/{id}', [TeacherController::class, 'updatePartial']);
+// Route::delete('/teachers/{id}', [TeacherController::class, 'destroy']);
